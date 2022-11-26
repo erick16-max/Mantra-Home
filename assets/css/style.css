@@ -1673,6 +1673,10 @@ a:hover {
   .card-box-c {
     margin-bottom: 2rem;
   }
+  .ser-card {
+    box-shadow: none;
+    border: none;
+  }
 }
 
 .card-header-c {
