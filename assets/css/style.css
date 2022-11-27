@@ -2,9 +2,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Poppins", sans-serif;
   color: #555555;
+
 }
 
 h1,
@@ -519,8 +521,8 @@ a:hover {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #0e89d4;
+  border: 4px solid transparent;
+  border-top: 4px solid #0e89d4;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -800,11 +802,14 @@ a:hover {
 /*------/ Hamburger Navbar /------*/
 .navbar-toggler {
   position: relative;
+  
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
-  outline: 0;
+  outline: none;
+  border: none;
+  
 }
 
 .navbar-toggler span {
