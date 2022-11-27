@@ -1658,11 +1658,7 @@ a:hover {
 //--//-->   SERVICES - CARD-C
 ======================================*/
 .ser-card {
-  
   height: 320px;
-  border: 2px solid rgb(240, 238, 238);
-  border-radius: 9px;
-  box-shadow: rgba(122, 122, 122, 0.2) 0px 2px 8px 0px;
   padding: 2px;
   margin: 7px auto;
   width: 370px;
