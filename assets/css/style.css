@@ -6,6 +6,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #555555;
+  user-select: none !important;
 
 }
 
