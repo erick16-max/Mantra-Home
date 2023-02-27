@@ -523,6 +523,8 @@ a:hover {
   left: calc(50% - 30px);
   border: 4px solid transparent;
   border-top: 4px solid #0e89d4;
+  border-right: 4px solid #0e89d4;
+  border-bottom: 4px solid #0e89d4;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -611,9 +613,22 @@ a:hover {
 /*--------------------------------------------------------------
 # Navbar
 --------------------------------------------------------------*/
+.logo-div {
+  display: flex;
+  flex-direction: column;
+  
+}
+.logo-div h6 {
+  color: #0e89d4;
+}
 .logo-img {
   width: 140px;
   height: 50px;
+}
+@media (max-width: 568px) {
+  .logo-div h6 {
+    display: none;
+  }
 }
 .navbar-default {
   transition: all 0.5s ease-in-out;
@@ -654,6 +669,7 @@ a:hover {
   .navbar-default.navbar-reduce .nav-item {
     margin-left: 15px;
   }
+  
 }
 
 .navbar-default.navbar-trans .nav-link,
