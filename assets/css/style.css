@@ -270,7 +270,7 @@ a:hover {
 
 /*------/ Space Padding /------*/
 .section-t8 {
-  padding-top: 8rem;
+  padding-top: 4rem;
 }
 
 @media (max-width: 767px) {
@@ -1675,10 +1675,11 @@ a:hover {
 //--//-->   SERVICES - CARD-C
 ======================================*/
 .ser-card {
-  height: 320px;
+  height: 370px;
   padding: 2px;
   margin: 7px auto;
   width: 370px;
+ 
   
 }
 .card-box-c {
@@ -2210,4 +2211,14 @@ footer .copyright-footer {
 
 footer .credits {
   font-size: 14px;
+}
+
+
+/*GENERAL QUERIES*/
+@media (max-width: 766px) {
+  .interior-fittings, .architectural-design {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+  }
 }
