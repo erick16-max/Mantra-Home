@@ -1676,11 +1676,16 @@ a:hover {
 ======================================*/
 .ser-card {
   height: 370px;
-  padding: 2px;
+  padding: 0px 2px;
   margin: 7px auto;
   width: 370px;
  
   
+}
+@media (max-width: 298px){
+  .ser-card {
+    padding: 0px 1px;
+  }
 }
 .card-box-c {
   position: relative;
